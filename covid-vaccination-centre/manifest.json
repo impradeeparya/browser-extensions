@@ -1,0 +1,25 @@
+{
+  "name": "Covid vaccination centre finder",
+  "description": "This extension will help to find the covid vaccination centre",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["notifications"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/vaccine_finder16.png",
+      "32": "/images/vaccine_finder32.png",
+      "48": "/images/vaccine_finder48.png",
+      "128": "/images/vaccine_finder128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/vaccine_finder16.png",
+    "32": "/images/vaccine_finder32.png",
+    "48": "/images/vaccine_finder48.png",
+    "128": "/images/vaccine_finder128.png"
+  }
+}
